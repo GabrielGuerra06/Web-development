@@ -1,2 +1,2 @@
 # Personal-website
-A practice of web development with a little website
+Personal web development proyects to practice
