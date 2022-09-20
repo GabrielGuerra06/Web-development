@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/Logo.jpeg">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <form action="../../form-result.php" target="_blank" ></form>
+    <title>Art Gallery</title>
+</head>
+<body>
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg bg-#c2c2c2 navbar" >
+  <div class="container-fluid">
+    <a href="index.html">
+      <img class="logo" style="position: relative;" src="./images/Logo.jpeg" alt="Logo">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav" style="margin-left:-50px">
+            
+            
+         
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./help.html">¿Necesitas Ayuda?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about us.html">Sobre nosotros</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Géneros
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./paisajes.html">Paisajes</a></li>
+            <li><a class="dropdown-item" href="./arteModerno.html">Arte moderno</a></li>
+            <li><a class="dropdown-item" href="./arteAbstracto.html">Arte abstracto</a></li>
+            <li><a class="dropdown-item" href="./arteHistorico.html">Arte Histórico</a></li>
+            <li><a class="dropdown-item" href="./cubismo.html">Cubismo</a></li>
+            <li><a class="dropdown-item" href="./surrealismo.html">Surrealismo</a></li>
+          </ul>
+        </li>
+        <li class="nav-item login">
+          <a class="nav-link" href="./login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ENCABEZADO -->
+<br>
+    <header>
+        <h1 style="font-family:Satisfy; padding-top: 150px;">ART GALLERY</h1>
+    </header>
+    <hr>
+
+    <!-- GRID -->
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+    <!-- CARROUSEL DE IMAGENES         -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/Imagen 1.png" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect></svg>
+      
+          </div>
+          <div class="carousel-item">
+            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/Imagen 2.png" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></svg>
+      
+          </div>
+          <div class="carousel-item">
+            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/imagen carrusel 3.png" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect></svg>
+          </div>
+          <div class="carousel-item">
+            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/imagen carrusel 4.png" role="img" aria-label="Placeholder: Fourth slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect></svg>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+          </div>
+        </div>
+<br><br><br>
+        <h6>SELECCION DE OBRAS DE ARTE ORIGINALES</h6>
+        <h3>GENEROS EN TENDENCIA</h3>
+        <br><br><br><br>
+        <div class="row">
+          <div class="col">
+            <a class="dropdown-item" href="./paisajes.html">
+            <!-- IMAGEN 1 -->
+            <div class="card text-bg-dark">
+                <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/paisajes-bob-ross-cuadros_01.jpeg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Paisajes</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-1">
+            <!-- ESPACIO -->
+          </div>
+          <div class="col">
+            <!-- IMAGEN 2 -->
+            <a class="dropdown-item" href="./arteModerno.html">
+            <div class="card text-bg-dark">
+                <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/modern art.jpeg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Arte moderno</h5>
+                </div>
+              </div>
+            </a>
+            </div>
+        </div> 
+        <br><br><br><br><br><br>
+        <!-- INICIO DE SEGUNDA COLUMNA -->
+          <div class="row">
+           <div class="col">
+            <!-- IMAGEN 3 -->
+            <a class="dropdown-item" href="./arteAbstracto.html">
+            <div class="card text-bg-dark">
+                <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/Abstract.jpeg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Arte abstracto</h5>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-sm-1">
+                <!-- ESPACIO -->
+            </div>
+            <div class="col">
+              <!-- IMAGEN 7 -->
+              <a class="dropdown-item" href="./cubismo.html">
+              <div class="card text-bg-dark">
+                 <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/cubismo.webp" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                 <div class="card-img-overlay">
+                   <h5 class="card-title">Cubismo</h5>
+                 </div>
+               </div>
+              </a>
+            </div>
+        </div> 
+        <!-- INFORMACION INTERMEDIA -->
+        <br><br><br>
+        <hr>
+        <br>
+        <div class="middle1">
+          <img src="./images/expediente.png" width="50px">
+          <p class="infoNOSE" >Busqueda fácil<br> rápida y sencilla</p> 
+        </div>
+        <div class="middle2">
+        <img src="./images/escudo-seguro.png" width="50px">
+          <p class="infoNOSE">Seguridad y confianza <br> en tus compras</p>
+        </div>
+        <div class="middle3">
+          <img src="./images/globalizacion.png" width="50px">
+          <p>Artistas y usuarios<br> de todo el mundo</p>
+        </div>
+        <div class="middle4">
+          <img src="./images/image-gallery.png" width="50px">
+          <p>Acceso gratuito a <br>imagenes auténticas </p>
+        </div>
+        <br><br><br><br><br><br>
+        <hr>
+        <br><br><br><br><br>
+ <!-- INICIO DE TERCERA COLUMNA -->
+        <div class="row">
+            <div class="col">
+                <!-- IMAGEN 5 -->
+                <a class="dropdown-item" href="./arteHistorico.html">
+                <div class="card text-bg-dark">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/historicas.png" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Pinturas históricas</h5>
+                    </div>
+                  </div>
+                  </a>
+             </div>
+             <div class="col-sm-1">
+                 <!-- ESPACIO -->
+             </div>
+             <div class="col">
+                <!-- IMAGEN 6 -->
+                <a class="dropdown-item" href="./surrealismo.html">
+                <div class="card text-bg-dark">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg card-img" width="100%" height="270" src="./images/surrealismo.png" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice"></svg>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Surrealismo</h5>
+                    </div>
+                  </div>
+                  </a>
+             </div>
+         </div> 
+
+         <br><br><br><br><br><br>
+ <!-- INICIO DE CUARTA COLUMNA -->
+        
+         </div> 
+        </div>
+      </div> 
+      <br><br><br><br>
+      <h2>¿Qúe es Art Gallery?</h2>
+      <div class="text1">En búsqueda de la expansión y el crecimiento de la cultura artística en nuestra sociedad
+        Art Gallery, busca a través de la belleza y la sencillez del arte lograr una galería
+         pública, segura, rentable, simple y bella,  donde la gente pueda encontrar identidad y calma en la belleza de la pintura,
+         gracias, a cientos de pinturas de los mejores artistas de la historia.
+         En Art Gallery, encontrarás los mejores precios y ofertas en obras auténticas de arte que encajarán
+         a la perfección en tus paredes.
+         <br><br>
+         Deleítate con obras únicas y originales de alta calidad en este sitio desarrollado con un simple propósito, la expansión del arte
+      </div>
+<br><br><br><br>
+      <!-- CONTACTANOS -->
+      <div class="bottom_container">
+        <br><br><br>
+        <div class="texto_informativo">ART GALLERY</div>
+        <button class="boton" type="submit">Regístrate</button>
+          <input class="email" type="email" placeholder="Email" size="30"/>
+        <div class="titulo_informativo">HOJA INFORMATIVA</div>
+        <div class="texto_informativo">Reciba nuestro boletín informativo semanal acerca de las tendencias del arte</div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <br><br><br><br>
+        <div class="footer1">
+          <a class="nav-link" href="./help.html">
+         <p class="texto_footer">Contáctanos</p>
+        </a>
+          <p class="infoNOSE" >Comunicación directa<br>con los desarrolladores</p> 
+        </div>
+        <div class="footer2">
+          <a class="nav-link" href="./about us.html">
+          <p class="texto_footer">Acerca de</p>
+        </a>
+          <p class="infoNOSE" >Misión y visión<br> del proyexto</p> 
+        </div>
+        <div class="footer3">
+          <a class="nav-link" href="./References.html">
+          <p class="texto_footer">Referencias</p>
+          <p class="infoNOSE" >Información y créditos<br> adicionales</p> 
+       </a>
+        </div>
+        <div class="footer4">
+          <p class="texto_footer">Redes sociales</p>
+          <img src="./images/image (4).png" style="height:30px">
+          <img src="./images/image (5).png" style="height:30px">
+          <img src="./images/image (6).png" style="height:30px">
+        </div>
+        <div class="footer4">
+          <img src="./images/Vertical-Line-PNG-High-Quality-Image.png" style="height:150px; width: 20px;">
+        </div>
+        <div class="footer5">
+          <p class="texto_footer">Desarrolladores</p>
+          <p class="infoNOSE" >Gabriel Guerra Rosales<br>Luis Felipe Organista Méndez<br>Diego Jiménez Ontiveros</p> 
+        </div>
+        <br><br><br><br><br><br>
+        <hr>
+    </footer>
+</body>
+</html>

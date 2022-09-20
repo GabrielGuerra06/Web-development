@@ -1,0 +1,340 @@
+*{
+    Margin: 0;
+  }
+.top_container{
+    background-color: #eeeeee
+}
+.logo{
+    max-width: 25%;
+}
+
+.navbar{
+    box-shadow: 0px 5px 15px 5px rgba(0, 0,  0, 0.5); 
+    width: 100vw; 
+    position:fixed; 
+    top: 0; left: 0;
+    z-index: 1000; 
+    background-color: white;
+}
+header{
+    margin: 0px 40px 40px 40px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(2, 16, 28);
+    align-items: center;
+    justify-content:center; 
+}
+
+hr{
+   width:100%;
+   text-align:left;
+   margin-left:0
+}
+body{
+    margin: 50px;
+    margin-top: 10px;
+}
+
+h5{
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h6{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+}
+
+.bottom_container{
+background-color: #f5f5f5;
+height: 300px;
+}
+h2{
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.text1{
+    margin-left: 40px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto_informativo{
+    margin-left: 70px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.titulo_informativo{
+    margin-left: 70px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+.email{
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    border: #eeeeee;
+    height: 50px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.boton{
+    float: right;
+    margin-right: 230px;
+   border: black;
+   background-color: black;
+   height: 50px;
+    width: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+}
+
+.middle1{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+}
+
+.middle2{
+    float: left;
+    position: relative;
+    margin-left: 150px;
+}
+.middle3{
+    float: left;
+    position: relative;
+    margin-left: 150px;
+}
+.middle4{
+    float: left;
+    position: relative;
+    margin-left: 150px;
+}
+
+.texto_pequeño{
+    position: relative;
+    float: right;
+
+    text-align: left;
+}
+
+.footer1{
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+.footer2{
+    float: left;
+    position: relative;
+    margin-left: 60px;
+}
+.footer3{
+    float: left;
+    position: relative;
+    margin-left: 60px;
+}
+.footer4{
+    float: left;
+    position: relative;
+    margin-left: 60px;
+}
+.footer5{
+    float: left;
+    position: relative;
+    margin-left: 50px;
+}
+.texto_footer{
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
+ .inputs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    position: relative;
+    margin-left: 250px;
+ }
+ .textbox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-right: 650px;
+    border-style:solid;
+    border-color: rgb(211, 209, 209);
+ }
+ .boton2{
+    float: left;
+    position: relative;
+    margin-left: 250px;
+   border: black;
+   background-color: black;
+   height: 50px;
+    width: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+}
+
+.header_paisajes{
+background-image: url(https://cdn.pixabay.com/photo/2018/04/01/02/20/future-3279838_960_720.jpg);
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+padding-top: 150px;
+}
+
+.header_text {
+    text-align:left;
+    position: relative;
+    color: white;
+    margin-top: 20px;
+    font-size: 26px;
+    padding-top: 150px;
+}
+.card-text{
+    display: grid;
+    justify-content: center;
+}
+
+.button{
+    cursor: pointer;
+    display: grid;
+    position: relative;
+    align-items: center;    
+    justify-content: center;
+    left: 40%;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: hidden;
+    border-left: 1px solid #343434;
+    border-right: 1px solid #343434;
+    border-bottom: 2px solid #343434;
+    box-shadow: 1px 2px 3px 1px #5c5b5b;
+    color: white;
+    background-color: black ;
+}
+
+.puja{
+    display: flex;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+}
+
+.texo_acercade{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+.login{
+    margin-left:290px;
+    
+}
+.titulos_acercade{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-left:270px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.imagen_redonda{
+    float: left; 
+    width: 200px;
+     height: 200px; 
+     border-radius: 100px;
+     margin-left: 150px;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagen_redonda img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.texto_redondo{
+    float: left; 
+    margin-left: 165px;
+
+}
+
+.comentarios{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.boton3{
+    float: right;
+    position: relative;
+    margin-right: 300px;
+    margin-top: 250px;
+   border: black;
+   background-color: black;
+   height: 50px;
+    width: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+    
+}
+
+.referencias{
+    color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+}
+
+.header_img{
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    align-content: center;
+    width:130vw;
+    float: right;
+    margin-right: -190px;
+
+}
+.header_img_moderno{
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    align-content: center;
+    width:110vw;
+    height: 50vw;
+    float: right;
+    margin-right: -190px;
+
+}
+.header_img_abstracto{
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    align-content: center;
+    width:110vw;
+    height: 600px;
+    float: right;
+    margin-right: -190px;
+
+}
