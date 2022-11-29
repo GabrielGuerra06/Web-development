@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.main{
+    position: relative;
+    background-image: linear-gradient(rgb(33, 44, 57), rgb(18, 30, 61) 50%, rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.table{
+  margin-top: -27%;
+  color:aliceblue;
+  text-align: left;
+  font-size: 15px;
+}
+
+.space{
+  margin-top: 50%;
+}
+
+.bink{
+    margin-left: 150px;
+    margin-top: -80px;
+    color: aliceblue;
+}
+
+.text{
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+}
+div {
+    display: block;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.you{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-left: -10%;
+}
+
+.botonCuenta {
+    margin-left: 15px;
+    margin-top: -250px;
+    width: 250px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .botonCuenta:hover {background-color: #3e8e41}
+  
+  .botonCuenta:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .left{
+    margin-left: -50%;
+  }
+
+  .btnLeft{
+    margin-top: -300px;
+    margin-left: -10%;
+  }
+
+  .Ccolor{
+    background-image: linear-gradient(rgb(86, 113, 147), rgb(54, 89, 178) 50%, rgb(0, 0, 0));
+  }
+
+  .right{
+    float: right;
+    margin-right: 120px;
+  }
+
+  .lefty{
+    margin-left: 1%;
+  }
+
+  .spacing{
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+  }
+
+  .img {
+    object-fit: cover;
+  }
+
+ 

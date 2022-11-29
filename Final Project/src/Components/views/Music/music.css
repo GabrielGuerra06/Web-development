@@ -1,0 +1,154 @@
+@media(max-width:1024px){
+  .albums{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  .cards{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .cards-rounded{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+  
+}
+.color-musica {
+    background: -webkit-linear-gradient(90deg, #1359bb 10%, #7aabef 90%);
+    background:    -moz-linear-gradient(90deg, #1359bb 10%, #7aabef 90%);
+    background:     -ms-linear-gradient(90deg, #1359bb 10%, #7aabef 90%);
+    background:      -o-linear-gradient(90deg, #1359bb 10%, #7aabef 90%);
+    background:         linear-gradient(90deg, #1359bb 10%, #7aabef 90%);
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+.circle1{
+  background: -webkit-radial-gradient( left bottom, circle farthest-corner, #b845db, #8f1cb6 );
+	background: radial-gradient( farthest-corner circle at left bottom,  #b845db, #8f1cb6 );
+  background: radial-gradient( farthest-corner circle at right top,  #b845db, #5d21a0 );
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 700px;
+  margin-top: 200px;
+  float: left;
+  margin-right: 60px;
+ 
+  
+}
+
+.cards-rounded{
+width: 100%;
+}
+
+.circle2{
+  background: -webkit-radial-gradient( left bottom, circle farthest-corner, #f3bd49, #d97006 );
+	background: radial-gradient( farthest-corner circle at left bottom,  #f3bd49, #d97006 );
+  background: radial-gradient( farthest-corner circle at right top,  #f3bd49, #de5e2c );
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 700px;
+  margin-top: 200px;
+  margin-right: 60px;
+  float: left;
+ 
+}
+
+.circle3{
+  background: -webkit-radial-gradient( left bottom, circle farthest-corner, #1de8e8, #069dd9 );
+	background: radial-gradient( farthest-corner circle at left bottom,  #1de8e8, #069dd9 );
+  background: radial-gradient( farthest-corner circle at right top,  #1de8e8, #7006d9 );
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 700px;
+    margin-top: 200px;
+    float: right;
+  }
+
+  .icon1{
+    width: 300px;
+    text-align: center;
+  }
+
+  .boton{
+    background-color: black;
+    border: black;
+    border-style: solid;
+    margin-left: 200px;
+    border-width: 7px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 200px;
+    padding-left: 20px;
+    width: 200px;
+  }
+
+  .search{
+    width: 600px;
+    display: flex;
+   
+  }
+
+  .cards{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding:20px;
+
+  }
+
+  .likes{
+    margin-right: 60px;
+  }
+
+  .description{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .cart{
+    position: relative;
+    cursor: pointer;
+    margin-right: 50px;
+    float: right;
+  }
+
+  .itemTotal{
+    position: absolute;
+    top: -1rem;
+    right: -1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: crimson;
+  }

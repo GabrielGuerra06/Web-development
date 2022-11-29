@@ -1,0 +1,80 @@
+@media(max-width:1024px){
+    .plans{
+        background: -webkit-linear-gradient(90deg, #020202 10%, #144181 90%);
+        background:    -moz-linear-gradient(90deg, #020202 10%, #144181 90%);
+        background:     -ms-linear-gradient(90deg, #020202 10%, #144181 90%);
+        background:      -o-linear-gradient(90deg, #020202 10%, #144181 90%);
+        background:         linear-gradient(90deg, #020202 10%, #144181 90%);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }   
+}
+.plans{
+    background: -webkit-linear-gradient(90deg, #020202 10%, #144181 90%);
+    background:    -moz-linear-gradient(90deg, #020202 10%, #144181 90%);
+    background:     -ms-linear-gradient(90deg, #020202 10%, #144181 90%);
+    background:      -o-linear-gradient(90deg, #020202 10%, #144181 90%);
+    background:         linear-gradient(90deg, #020202 10%, #144181 90%);
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.cardPlan1{
+    background: -webkit-radial-gradient( left bottom, circle farthest-corner, #ef6af4, #b845db );
+	background: radial-gradient( farthest-corner circle at left bottom,  #ef6af4, #b845db );
+    background: radial-gradient( farthest-corner circle at right top,  #ef6af4, #5d21a0 );
+    height: 700px;
+    width: 430px;
+    display: flex;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 60px;
+
+}
+
+.cardPlan2{
+    background: -webkit-radial-gradient( left bottom, circle farthest-corner, #f3bd49, #d97006 );
+	background: radial-gradient( farthest-corner circle at left bottom,  #f3bd49, #d97006 );
+    background: radial-gradient( farthest-corner circle at right top,  #f3bd49, #de5e2c );
+    height: 700px;
+   width: 430px;
+   display: flex;
+    float: left;
+    position: relative;
+   border-radius: 20px;
+   margin-left: 30px;
+   margin-top: 60px;
+}
+
+.cardPlan3{
+    background: -webkit-radial-gradient( left bottom, circle farthest-corner, #1de8e8, #069dd9 );
+	background: radial-gradient( farthest-corner circle at left bottom,  #1de8e8, #069dd9 );
+    background: radial-gradient( farthest-corner circle at right top,  #1de8e8, #7006d9 );
+   height: 700px;
+   width: 430px;
+   display: flex;
+   position: relative;
+float: left;
+   border-radius: 20px;
+   margin-top: 60px;
+   margin-left: 30px;
+   margin-bottom: 170px;
+}
+
+.price{
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+}
+
+.planTitle{
+    color: white;
+    text-align: center;
+}

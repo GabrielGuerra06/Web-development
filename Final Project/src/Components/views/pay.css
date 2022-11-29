@@ -1,0 +1,12 @@
+.payment-form{
+    background: radial-gradient( farthest-corner circle at left bottom,  #1d8567, #37cfbe );
+    background: -webkit-radial-gradient( left bottom, circle farthest-corner, #64dfca, rgb(43, 180, 148) );
+	background: radial-gradient( farthest-corner circle at left bottom,  #64dfca, rgb(38, 157, 130) );
+    background: radial-gradient( farthest-corner circle at right top,  #64dfca, #0e7a5b );
+
+    border-radius: 32px;
+    color: white;
+}
+.form-c-title{
+    text-align: center;
+}
