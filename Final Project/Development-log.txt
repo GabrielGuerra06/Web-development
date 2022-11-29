@@ -1,0 +1,10 @@
+To start developing the web page, we started by importing and implementing the necessary libraries: React and Router were the backbone of the web page and its navigation. 
+
+We were not sure on which API to use; but we decided to use the Spotify API since it 
+allowed us to pull data which we could later store and show to the user.
+
+The first thing we did was develop some of the views: main page, plans and search. For the last one, we had to pull data properly from the API and filter it according to the user input. We also added a “like” button to each of the results in order to show the last liked one on the user’s profile. This page and the payment one were the next ones to be constructed.
+
+After building the bones of the payment page, we had to send the price according to the plan selected. Following these advances, we had to fix some style issues, including making the page more responsive.
+
+Finally, we had to implement MongoDB into the web page in order for the newly built login page to work.
